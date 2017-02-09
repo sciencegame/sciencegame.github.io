@@ -48,10 +48,14 @@
       <br>
       <div class="logo"></div>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title"><span class="clickme">CLICK ME </span>|| Science Game</div>
+      <div class="title"><button  onclick="clickme()"class="clickme">CLICK ME </button>|| Science Game</div>
     </div>
     <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
     <script type='text/javascript'>
+      function clickme(){
+       console.log("Hello");
+        window.location.href = "http://sciencegame.github.io/MARKMEONTHIS.docx";
+      }
   var Module = {
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
